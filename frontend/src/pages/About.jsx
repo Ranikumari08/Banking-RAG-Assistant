@@ -9,7 +9,7 @@ const About = () => {
             <section className="bg-primary pt-24 pb-20 text-white relative overflow-hidden">
                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }}></div>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                    <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Apex Global</h1>
+                    <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Swiss Global</h1>
                     <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
                         Leading the financial revolution with secure, trusted, and globally accessible banking solutions.
                     </p>
@@ -23,7 +23,7 @@ const About = () => {
                         <div className="absolute inset-0 bg-primary/5 rounded-3xl transform -rotate-3 scale-105"></div>
                         <img
                             src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                            alt="Apex Office"
+                            alt="Swiss Office"
                             className="rounded-3xl shadow-xl relative z-10"
                         />
                     </div>
@@ -31,7 +31,7 @@ const About = () => {
                         <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-2 block">Our History</span>
                         <h2 className="text-4xl font-bold text-primary mb-6">Banking excellence since 1995</h2>
                         <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                            For over two decades, Apex Global Bank has stood as a pillar of financial stability and innovation. We combine traditional institutional security with cutting-edge AI technology to provide our clients with an unparalleled banking experience.
+                            For over two decades, Swiss Global Bank has stood as a pillar of financial stability and innovation. We combine traditional institutional security with cutting-edge AI technology to provide our clients with an unparalleled banking experience.
                         </p>
                         <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                             We manage over $50B in assets globally, ensuring that whether you are opening your first savings account or scaling a multinational enterprise, your capital is protected and primed for growth.
@@ -106,7 +106,7 @@ const About = () => {
                 <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
                 <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
                     <h2 className="text-4xl font-bold text-white mb-6">Ready to secure your financial future?</h2>
-                    <p className="text-xl text-gray-300 mb-10">Join millions of satisfied customers experiencing the Apex Global difference.</p>
+                    <p className="text-xl text-gray-300 mb-10">Join millions of satisfied customers experiencing the Swiss Global difference.</p>
                     <Link to="/apply" className="bg-accent text-primary px-10 py-4 rounded-md font-bold text-lg hover:bg-accent-light transition-colors inline-flex items-center gap-2 shadow-xl shadow-accent/20">
                         Start Banking With Us <Target className="w-5 h-5" />
                     </Link>

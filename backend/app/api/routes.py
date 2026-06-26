@@ -44,7 +44,7 @@ def handle_chat_query(
         name="banking-rag-query",
         input={"query": req.query},
     ) as root_span:
-        root_span.update_trace(user_id=req.user_id)
+        #root_span.update_trace(user_id=req.user_id)
 
         # 2. Input Validation (Guardrails)
         if not guardrails.validate_input(req.query):

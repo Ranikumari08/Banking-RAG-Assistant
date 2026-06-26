@@ -23,7 +23,7 @@ const Navbar = () => {
                         <div className="bg-primary p-2 rounded-lg group-hover:bg-primary-light transition-colors">
                             <Building2 className="w-6 h-6 text-white" />
                         </div>
-                        <span className="text-xl font-bold tracking-tight text-primary">Apex Global</span>
+                        <span className="text-xl font-bold tracking-tight text-primary">Swiss Global</span>
                     </Link>
 
                     {/* Desktop Nav */}

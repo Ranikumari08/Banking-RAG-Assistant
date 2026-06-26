@@ -13,7 +13,7 @@ const Footer = () => {
                             <div className="bg-white p-2 rounded-lg">
                                 <Building2 className="w-6 h-6 text-primary" />
                             </div>
-                            <span className="text-xl font-bold tracking-tight text-white">Apex Global</span>
+                            <span className="text-xl font-bold tracking-tight text-white">Swiss Global</span>
                         </Link>
                         <p className="text-gray-300 text-sm mb-6 leading-relaxed">
                             Secure, trusted, and global financial solutions tailored for your success. Empowering your investments every step of the way.
@@ -36,7 +36,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-start gap-3 text-gray-300 text-sm">
                                 <Mail className="w-5 h-5 text-accent shrink-0" />
-                                <span>support@apexglobalbank.com</span>
+                                <span>support@swissglobalbank.com</span>
                             </li>
                             <li className="flex items-start gap-3 text-gray-300 text-sm">
                                 <MapPin className="w-5 h-5 text-accent shrink-0" />
@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-                    <p>© {new Date().getFullYear()} Apex Global Bank. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Swiss Global Bank. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>

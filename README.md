@@ -1,6 +1,6 @@
-# Apex Global Bank - Modern Banking RAG Application
+# Swiss Global Bank - Modern Banking RAG Application
 
-Welcome to the **Apex Global Bank** repository! This project constitutes a full-stack, enterprise-grade banking application leveraging Retrieval-Augmented Generation (RAG) to power an intelligent AI Chatbot.
+Welcome to the **Swiss Global Bank** repository! This project constitutes a full-stack, enterprise-grade banking application leveraging Retrieval-Augmented Generation (RAG) to power an intelligent AI Chatbot.
 
 ## 🚀 Project Overview
 

@@ -40,7 +40,7 @@ const Application = () => {
                 <div className="text-center mb-12">
                     <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-2 block">Get Started</span>
                     <h1 className="text-4xl md:text-5xl font-extrabold text-primary mb-4">Secure Application</h1>
-                    <p className="text-gray-600 text-lg">Join Apex Global Bank today and experience seamless global finance.</p>
+                    <p className="text-gray-600 text-lg">Join Swiss Global Bank today and experience seamless global finance.</p>
                 </div>
 
                 {isSubmitted ? (

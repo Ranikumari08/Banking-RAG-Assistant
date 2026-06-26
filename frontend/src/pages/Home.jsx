@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ShieldCheck, Clock, BrainCircuit, Users, Building, Laptop, ChevronRight, ChevronLeft, Quote } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Clock, BrainCircuit, Users, Building, Laptop, ChevronRight, ChevronLeft, Quote, Globe2, CreditCard, Banknote, Briefcase, PiggyBank } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard';
 
@@ -11,13 +11,11 @@ const Home = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid md:grid-cols-2 gap-12 items-center">
                     <div className="animate-in slide-in-from-left duration-700">
                         <h1 className="text-5xl md:text-6xl font-extrabold text-primary leading-tight mb-6">
-                            The right <span className="text-accent underline decoration-4 underline-offset-8">decision</span><br />
-                            at the right time.
+                            Global Banking.<br />
+                            <span className="text-accent underline decoration-4 underline-offset-8">Trusted Worldwide.</span>
                         </h1>
                         <p className="text-xl text-gray-600 mb-8 max-w-lg leading-relaxed">
-                            Welcome to Apex Global Bank.<br />
-                            Secure. Trusted. Global.<br />
-                            We provide awesome services, it's here.
+                            Swiss Global Bank delivers secure digital banking, wealth management, international payments, and corporate financial services powered by AI.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/apply" className="btn-primary flex items-center gap-2 group">
@@ -95,29 +93,42 @@ const Home = () => {
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
                         <div className="max-w-2xl">
                             <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-2 block">Our Expertise</span>
-                            <h2 className="text-4xl font-bold text-primary mb-4">Financial Solutions</h2>
-                            <p className="text-gray-600 text-lg">We provide awesome services, tailored exactly to your financial aspirations.</p>
+                            <h2 className="text-4xl font-bold text-primary mb-4">World-Class Financial Services</h2>
+                            <p className="text-gray-600 text-lg">Swiss Global Bank offers a comprehensive suite of premium financial products trusted by clients across 150+ countries.</p>
                         </div>
                         <Link to="/apply" className="btn-secondary whitespace-nowrap hidden md:inline-flex">View All Services</Link>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                         <ServiceCard
-                            icon={<Users className="w-8 h-8" />}
-                            title="Personal Banking"
-                            description="High-yield savings, checking accounts, and premium credit cards designed for your lifestyle."
-                            badge="Popular"
+                            icon={<PiggyBank className="w-8 h-8" />}
+                            title="Swiss Premium Savings"
+                            description="Industry-leading interest rates, multi-currency accounts, and exclusive Swiss banking privileges for individuals and families."
+                            badge="Top Rated"
+                        />
+                        <ServiceCard
+                            icon={<Briefcase className="w-8 h-8" />}
+                            title="International Wealth Management"
+                            description="Bespoke portfolio strategies, private banking, and global asset management tailored to high-net-worth individuals."
+                            badge="Exclusive"
                         />
                         <ServiceCard
                             icon={<Building className="w-8 h-8" />}
-                            title="Home & Business Loans"
-                            description="Competitive rates for mortgages, commercial real estate, and enterprise expansion capital."
-                            badge="Lowest Rates"
+                            title="Global Corporate Banking"
+                            description="End-to-end corporate finance solutions including trade finance, treasury management, and syndicated lending for enterprises."
+                            badge="Enterprise"
                         />
                         <ServiceCard
-                            icon={<ShieldCheck className="w-8 h-8" />}
-                            title="Insurance & Investments"
-                            description="Secure your future with our wealth management and comprehensive global insurance fleets."
+                            icon={<Globe2 className="w-8 h-8" />}
+                            title="Cross-Border Payments"
+                            description="Real-time international wire transfers, multi-currency FX at institutional rates, and seamless SWIFT & SEPA connectivity."
+                            badge="Instant"
+                        />
+                        <ServiceCard
+                            icon={<CreditCard className="w-8 h-8" />}
+                            title="Premium Credit Cards"
+                            description="Swiss-issued Visa Infinite and Mastercard World Elite cards with global lounge access, travel insurance, and zero FX fees."
+                            badge="Elite"
                         />
                     </div>
                 </div>
@@ -180,7 +191,7 @@ const Home = () => {
                     <div className="text-center mb-16">
                         <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-2 block">Leadership</span>
                         <h2 className="text-4xl font-bold text-primary mb-4">Expert team members</h2>
-                        <p className="text-gray-600 max-w-2xl mx-auto">Meet the global minds powering Apex Global Bank's secure foundation.</p>
+                        <p className="text-gray-600 max-w-2xl mx-auto">Meet the global minds powering Swiss Global Bank's secure foundation.</p>
                     </div>
 
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
@@ -213,7 +224,7 @@ const Home = () => {
                         <div className="md:w-1/2 p-12 text-white relative">
                             <Quote className="absolute top-8 left-8 w-20 h-20 text-white/10" />
                             <div className="relative z-10">
-                                <p className="text-xl leading-relaxed italic mb-8">"Apex Global Bank helped scale our enterprise operations worldwide. Their AI Assistant answers my secure finance questions accurately at 3 AM. Completely unparalleled service."</p>
+                                <p className="text-xl leading-relaxed italic mb-8">"Swiss Global Bank helped scale our enterprise operations worldwide. Their AI Assistant answers my secure finance questions accurately at 3 AM. Completely unparalleled service."</p>
                                 <div>
                                     <h4 className="font-bold text-lg">David Mitchell</h4>
                                     <p className="text-accent text-sm">CEO of TechFirm Global</p>

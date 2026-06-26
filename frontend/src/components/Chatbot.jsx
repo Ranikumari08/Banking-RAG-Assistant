@@ -5,7 +5,7 @@ import axios from 'axios';
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { id: 1, text: "Hello! I'm the Apex AI Banking Assistant. How can I help you today?", sender: 'bot' }
+        { id: 1, text: "Hello! I'm Swiss AI Banker, your personal Swiss Global Bank assistant. How can I help you today?", sender: 'bot' }
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -102,7 +102,7 @@ const Chatbot = () => {
                                 <Bot className="w-5 h-5 text-white" />
                             </div>
                             <div>
-                                <h3 className="font-semibold text-sm">Apex AI Assistant</h3>
+                                <h3 className="font-semibold text-sm">Swiss AI Banker</h3>
                                 <span className="text-xs text-accent-light flex items-center gap-1">
                                     <span className="w-2 h-2 rounded-full bg-green-400 inline-block animate-pulse"></span> Online
                                 </span>
