@@ -174,4 +174,5 @@ npm run dev
 4. **Langfuse Telemetry**: End-to-end trace tracking on every RAG query for observability.
 
 📄 License
+
 This project is licensed under the MIT License — see the LICENSE file for details.
